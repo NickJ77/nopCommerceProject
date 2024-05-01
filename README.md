@@ -31,7 +31,7 @@ I used `Python`, `Selenium`, `Pytest`, `Pycharm`
 - Install `pip install pytest-xdist` or intall using the python interpreter in pycharm
 - Install `pip install pytest-html` or intall using the python interpreter in pycharm
 - Configure the WebDriver path and other settings in the `conftest.py` file.
-- Open the project in PyCharm and ensure the interpreter is set to the virtual environment.
+- Open the project in `PyCharm` and ensure the interpreter is set to the virtual environment.
 
 
 
