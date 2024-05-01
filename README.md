@@ -37,4 +37,16 @@ I used `Python`, `Selenium`, `Pytest`, `Pycharm`
 
 ## Approach
 
-The automation testing project follows the Page Object Model (POM) design pattern to ensure a modular and maintainable test suite. Each page of the nopCommerce application is represented by a corresponding Page Object class, which encapsulates the page's elements and actions. The test cases are organized by functionality, with each test module (e.g., test_login.py) focusing on a specific aspect of the application. The test cases utilize the Page Object classes to interact with the nopCommerce UI and validate the expected behavior. The Base Page class typically encapsulates the common functionality and elements shared across multiple pages of the application.
+The automation testing project follows the Page Object Model (POM) design pattern to ensure a modular and maintainable test suite. Each page of the nopCommerce application is represented by a corresponding Page Object class, which encapsulates the page's elements and actions. The test cases are organized by functionality, with each test module (e.g., test_login.py) focusing on a specific aspect of the application. The test cases utilize the Page Object classes to interact with the nopCommerce UI and validate the expected behavior. The Base Page class typically encapsulates the common functionality and elements shared across multiple pages of the application. In my project I have used the `pytest.ini` file for specific markers that I have set in the pytest framework. The `requirements.txt` in the project is used to store the required packages.
+
+**Challenge:** The nopCommerce application may have dynamic elements and locators that change frequently, making it difficult to maintain the test suite.
+
+**Solution:** Implement a robust locator strategy that uses a combination of element attributes, such as CSS selectors and XPath, to make the locators more resilient to changes. Utilize techniques like explicit waits and dynamic timeouts to ensure the tests can handle page load times and element visibility issues. Encapsulate the locator strategies in the Page Object classes, making it easier to update them in a centralized location.
+
+**Challenge:** The tests may encounter "StaleElementReferenceException" errors, where the referenced elements are no longer present on the page or have become detached from the DOM.
+
+**Solution:** Use more robust locator strategies, such as a combination of element attributes, to make the locators less susceptible to changes in the DOM structure.
+
+**Challenge:** Challenge: Some test cases may exhibit inconsistent or "flaky" behavior, passing in one run and failing in another.
+
+**Solution:** Identify the root causes of the flaky test cases by analyzing the test logs and debugging the failures.
