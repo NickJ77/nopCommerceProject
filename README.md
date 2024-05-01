@@ -16,7 +16,7 @@ This project is an automation testing suite for the nopCommerce e-commerce platf
 
 ## About The App
 
-NopCommerce is an open-source e-commerce platform that provides a comprehensive set of features and functionalities for building and managing online stores. nopCommerce is a robust, feature-rich and customizable open-source e-commerce platform suitable for businesses that need a high degree of control and flexibility over their online store.
+NopCommerce is an open-source e-commerce platform that provides a comprehensive set of features and functionalities for building and managing online stores. NopCommerce is a robust, feature-rich and customizable open-source e-commerce platform suitable for businesses that need a high degree of control and flexibility over their online store.
 
 ## Tools
 I used `Python`, `Selenium`, `Pytest`, `Pycharm`
