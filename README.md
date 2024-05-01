@@ -7,7 +7,7 @@ This project is an automation testing suite for the nopCommerce e-commerce platf
 
 
 
-## Table of Content:
+## Table of Contents:
 
 - [About The App](#about-the-app)
 - [Tools](#tools)
